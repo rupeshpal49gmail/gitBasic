@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8f3f8;
+    font: 1em/1.5 sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: steelblue;
+}
+
+form {
+    margin: 20px auto;
+    width: 320px;
+    color: steelblue;
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #faf6d9;
+}
+
+input[type="radio"] {
+    margin: 0 8px 25px 18px;
+}
+input[type="radio"]:first-child {
+    margin: 0;
+}
+input[type="submit"] {
+    width: 344px;
+    height: 45px;
+    border: none;
+    background:steelblue;
+    color: white;
+}
+input[type="submit"]:focus {
+    width: 344px;
+    height: 45px;
+    border: solid steelblue;
+    background:white;
+    color: steelblue;
+}
+input:focus {
+    background: white;
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    font-size: 18px;
+}
+#table {
+    margin: 0 auto;
+}
+#heading{
+    text-align: center;
+    color: steelblue;
+}
+
+
+#tbl {
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    background-color: black;
+}
+.fm1 {
+    margin: 10px;
+    padding: 10px;
+}
+#imgs{
+    width: 50px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 30px;
+}
+#heading2 {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    color: steelblue;
+}
+
+#navBar{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
